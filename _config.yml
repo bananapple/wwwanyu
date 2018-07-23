@@ -16,9 +16,9 @@
 title: Wanyu Chang, a web designer
 email: 2and3and4and1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The designer's bio.
+  The designer's portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "wwwanyu.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 80ssundries
 github_username: bananapple
 lang: en
