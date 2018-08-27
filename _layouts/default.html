@@ -13,6 +13,9 @@
     <!-- {% include footer.html %} -->
 
     {% js main %}
+    {% if jekyll.environment == 'production' %}
+    {% include ga.html %}
+    {% endif %}
   </body>
 
 </html>
