@@ -26,8 +26,8 @@ function handleClose(){
   console.log(`close`)
   var renderMsg = document.querySelector('#copied');
   var background = document.querySelector('#underneath');
-  renderMsg.classList.remove("d-block");
-  background.classList.remove("blur");
+  renderMsg.classList.remove("d-block")
+  background.classList.remove("blur")
 }
 
 function handleEsc(event){

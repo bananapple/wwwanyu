@@ -16,6 +16,10 @@ main{
 .heading{
   font-family: "utopia-std-display",serif;
 }
+.btn{
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+}
 .border-btm-md{
   .border-bottom{
     @media screen and(min-width: 768px){
@@ -41,6 +45,7 @@ main{
   right: 0;
   bottom: 0;
   background-color: rgba(#fff, 0.8);
+  animation: fade-in 0.2s;
   .copied-msg{
     position: absolute;
     top: 50%;
@@ -51,4 +56,36 @@ main{
 }
 .blur{
   filter: blur(.08rem);
+}
+.close{
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@media (min-width: 576px){
+  .modal-dialog{
+    max-width: 90%;
+  }
+}
+.modal-backdrop{
+  background-color: #fff;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.hover-opacity{
+  &:hover{
+    opacity: 0.9;
+  }
 }
