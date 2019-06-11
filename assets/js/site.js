@@ -1,3 +1,9 @@
+window.addEventListener("load", function(){
+  var loading = document.getElementById('load_avatar');
+  console.log(loading)
+  loading.remove()
+});
+
 var copyEmail = document.querySelector('#copyBtn');
 copyEmail.addEventListener('click', function(event) {
   var emailTxt = document.querySelector('#email');

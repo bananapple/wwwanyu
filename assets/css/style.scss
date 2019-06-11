@@ -89,3 +89,8 @@ main{
     opacity: 0.9;
   }
 }
+.load-avater{
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
