@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.6.3"
+gem "jekyll"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -29,6 +29,7 @@ gem "uglifier"
 gem "sass"
 gem "jekyll-coffeescript"
 gem "sprockets-rails"
-gem "bootstrap", "~> 4.1.1"
+gem "bootstrap", ">= 4.3.1"
 gem "jquery-rails"
-gem 'popper_js', '~> 1.12.9'
+gem 'popper_js'
+gem "railties", ">= 5.2.2.1"
