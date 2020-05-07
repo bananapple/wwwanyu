@@ -1,1 +1,7 @@
-i am nav
+<nav class="h5 heading text-center">
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link }}" {% if page.url == item.link %}class="text-muted" {% endif %}>
+    {{ item.name }}
+  </a>
+  {% endfor %}
+</nav>

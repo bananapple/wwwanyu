@@ -1,0 +1,26 @@
+---
+layout: default
+title: Talk about design
+---
+<section class="mt-3 mt-sm-5 py-sm-5 py-3 text-center">
+  <h1 class="heading">Talk about design</h1>
+  <img src="{{ '/assets/images/litsening.gif' }}" alt="Taking notes">
+  <div class="row justify-content-center">
+    <div class="col-sm-6 mt-3 mb-sm-5">
+      <p class="h3">All about UI and graphic design</p>
+    </div>
+  </div>
+</section>
+<div class="row justify-content-center">
+  <div class="col-sm-6 mt-3 mb-sm-5">
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <h2 class="heading h3 d-inline"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <span class="ml-1 text-muted">publish at {{ post.date | date: "%-d %B %Y" }}</span>
+          <p>{{ post.excerpt }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

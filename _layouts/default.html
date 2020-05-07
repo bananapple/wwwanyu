@@ -1,18 +1,15 @@
+---
+title: Talk about design
+---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
-
-
-
+  {% include head.html %}
   <body>
-
-
+    {% include nav.html %}
     <main aria-label="Content">
-      {{ content }}
+      <div class="container border-btm-md">
+        {{ content }}
+      </div>
     </main>
-
-    <!-- {% include footer.html %} -->
-
-    {% js main %}
   </body>
-
 </html>
